@@ -20,12 +20,8 @@ cp Wallpaper.jpg /home/$username/Pictures/
 chown -R $username:$username /home/$username
 cd /home/$username/
 
-#yay install
-pacman -S --needed git base-devel && mkdir /home/$username/github-projects && cd /home/$username/github-projects && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-cd /home/$username
-
 # Installing Essential Programs 
-yay -S feh picom thunar thunar-archive-plugin firefox neofetch ly gpg spotify discord-screenaudio sublime-text-4 lxappearance alsa-tools unzip wget pulseaudio pavucontrol cmake webkit2gtk xorg-xinit libx11 libxinerama libxft -y
+yay -S feh picom thunar thunar-archive-plugin firefox neofetch ly gpg spotify discord-screenaudio sublime-text-4 lxappearance alsa-tools unzip wget pulseaudio xorg pavucontrol cmake webkit2gtk xorg-xinit libx11 libxinerama libxft -y
 
 #dwm install
 cd /home/$username/github-projects
