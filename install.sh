@@ -16,7 +16,6 @@ pacman -Syu
 cd ~/arch-xam
 mkdir -p ~/.fonts
 mkdir -p ~/Pictures
-mkdir -p ~/github-projects
 cp Wallpaper.jpg ~/Pictures/
 chown -R $username:$username /home/$username
 cd ~
